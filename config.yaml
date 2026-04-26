@@ -1,0 +1,47 @@
+# db connection variables
+Host: fembussy.co.uk
+Port: 3306
+User: DapsR1
+Password: 2070303825dujghjwovjd+-
+DB: db1
+# runtime variables
+demo: True
+start: "2017-04-01"
+end: "2024-04-01"
+# Major Financial Indexes
+major_indexes:
+  - "^GSPC"   # S&P 500
+  - "^OEX"    # S&P 100
+  - "^DJI"    # Dow Jones Industrial Average
+  - "^IXIC"   # NASDAQ Composite
+  - "^NDX"    # NASDAQ-100
+  - "^RUT"    # Russell 2000
+
+# International Indexes
+international_indexes:
+  - "^GDAXI"      # DAX (Germany)
+  - "^FTSE"       # FTSE 100 (UK)
+  - "^FCHI"       # CAC 40 (France)
+  - "^N225"       # Nikkei 225 (Japan)
+  - "^HSI"        # Hang Seng Index (Hong Kong)
+  - "000001.SS"   # Shanghai Composite (China)
+  - "^BSESN"      # Sensex (India)
+  - "^AXJO"       # ASX 200 (Australia)
+  - "^STOXX50E"   # Euro Stoxx 50
+
+# Commodity and Sector Indexes
+commodity_indexes:
+  - "GC=F"   # Gold Futures
+  - "CL=F"   # Crude Oil (WTI)
+  - "BZ=F"   # Crude Oil (Brent)
+  - "^VIX"   # Volatility Index (VIX)
+
+# Cryptocurrency Indexes
+crypto_indexes:
+  - "BTC-USD"  # Bitcoin (USD)
+  - "ETH-USD"  # Ethereum (USD)
+
+# Other Notable Indexes
+other_indexes:
+  - "URTH"  # MSCI World Index
+  - "EEM"   # MSCI Emerging Markets Index
