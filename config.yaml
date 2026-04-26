@@ -1,8 +1,8 @@
 # db connection variables
-Host: fembussy.co.uk
+Host: 
 Port: 3306
-User: DapsR1
-Password: 2070303825dujghjwovjd+-
+User: 
+Password: 
 DB: db1
 # runtime variables
 demo: True
